@@ -12,6 +12,9 @@ def loop_iterator(number_of_times)
   counter = 0
   number_of_times.times do  
     print phrase
+    counter += 1
+    if counter >= 7
+      break
   end
 end
 
